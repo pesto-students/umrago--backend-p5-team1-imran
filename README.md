@@ -22,11 +22,6 @@ Please Note:
 1. We recommend using this app in any browser other than Microsoft Edge
 2. Use the website on Laptop | Desktop | Tablet | Mobile only for better expirence.
 
-**Test Credentials for Users:**
-| Email | Password
-| ----------- | -----------  |
-| shiraj+demo@gmail.com | demo |
-
 
 ## Installation
 
@@ -58,7 +53,6 @@ We tried to use a modern tech stack
 ## Authors
 
 - [Shiraj Sayed](https://github.com/shirajsayed13)
-- [Muskan Batra]()
 
 ## License
 
