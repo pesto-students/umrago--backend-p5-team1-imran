@@ -41,7 +41,7 @@ npm install
 
 ## Technology Stack
 
-We tried to use a modern tech stack
+We tried to use a modern tech stack and libraries
 
 - [Node JS](https://nodejs.org/en/)
 - [Express JS](https://expressjs.com/)
@@ -49,7 +49,9 @@ We tried to use a modern tech stack
 - [Joi](https://www.npmjs.com/package/joi)
 - [Mongoose](https://mongoosejs.com/)
 - [Razorpay](https://razorpay.com/)
-
+- [Redis](https://redis.io/docs)
+- [Fast2SMS](https://www.fast2sms.com/dashboard/)
+- [JWT](https://jwt.io/introduction)
 ## Authors
 
 - [Shiraj Sayed](https://github.com/shirajsayed13)

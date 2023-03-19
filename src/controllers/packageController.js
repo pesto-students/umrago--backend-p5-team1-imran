@@ -264,14 +264,6 @@ exports.searchAllPackages = async (req,res,next) =>{
     const perPage = 15;
     const page = req.query.page - 1;
     
-    // let searchKeyword = req.query.searchKeyword
-    //   ? {
-    //     start_date: {
-    //       $regex: req.query.searchKeyword,
-    //       $options: 'i',
-    //     },
-    //   }
-    //   : {};
    let searchKeyword = req.query.searchKeyword;
     //   console.log(searchKeyword)
     let products = await Package.countDocuments({start_date :{ $gte : searchKeyword}});

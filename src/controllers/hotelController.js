@@ -49,55 +49,6 @@ exports.postHotel = (req,res,next) =>{
             images : req.body.images,
             amenities  : req.body.amenities
         })
-    // const hotel = new Hotel({
-    //     _id : new mongoose.Types.ObjectId(),
-    //     name : req.body.name,
-    //     address : req.body.address,
-    //     contact_number : req.body.contact_number,
-    //     distance_between : req.body.distance_between,
-    //     location : req.body.location,
-    //     images : req.body.images,
-    //     amenties : {
-    //         ac : req.body.amenties.ac,
-    //         card_payment : req.body.amenties.card_payment,
-    //         checkIn_time : req.body.amenties.checkIn_time,
-    //         elevator : req.body.amenties.elevator,
-    //         wifi : req.body.amenties.wifi,
-    //         daily_housekeeping : req.body.amenties.daily_housekeeping,
-    //         parking_facility : req.body.amenties.parking_facility,
-    //         handicap_support : req.body.amenties.handicap_support,
-    //         power_backup : req.body.amenties.power_backup,
-    //         geyser : req.body.amenties.geyser,
-    //         fan : req.body.amenties.fan,
-    //         tv : req.body.amenties.tv
-    //     },
-    //     room_types : {
-    //         types : req.body.room_types.types,
-    //         room : {
-    //             available : req.body.room_types.room.available,
-    //             price : req.body.room_types.room.price,
-    //             child : {
-    //                 child_type : req.body.room_types.room.child.child_type,
-    //                 bed_required : req.body.room_types.room.child.bed_required,
-    //                 price : req.body.room_types.room.child.price
-    //             }
-    //         }
-    //     },
-    //     travel_service : req.body.travel_service,
-    //     hotel_policies : {
-    //         booking : req.body.hotel_policies.booking,
-    //         cancel : req.body.hotel_policies.cancel,
-    //         refund : req.body.hotel_policies.refund
-    //     },
-    //     hotel_rating : {
-    //         meal : req.body.hotel_rating.meal,
-    //         travel : req.body.hotel_rating.travel,
-    //         customer_support : req.body.hotel_rating.customer_support,
-    //         other_services : req.body.hotel_rating.other_services
-    //     },
-    //     hotel_meals : req.body.hotel_meals
-    // })
-
     hotel.save()
     .then(data =>{
         res.status(201).json({
