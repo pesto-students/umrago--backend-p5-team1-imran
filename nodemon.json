@@ -1,0 +1,9 @@
+{
+    "env": {
+        "MONGO_ATLAS_PW" : "Admin123",
+        "JWT_ACCESS_KEY" : "krbawLQw12O1dfwX8vqY0Jb4xL9CFWNa",
+        "JWT_REFRESH_KEY": "DRC42DM1VBKc1D8uWZ5lL22r7jUPtMHi",
+        "key_id" : "rzp_live_fsW9VXdfjnvf0K",
+        "key_secret" : "Qj44nOY1FsGgLDHdxJXFwYdE"
+    }
+}
